@@ -57,6 +57,7 @@ Android Demonstration:
 ### 3.5 Android Instrumented Tests
 - Ensure One-way Encryption behaves as expected on Android.
 <img width="866" alt="one-way-encryption-ss" src="https://user-images.githubusercontent.com/98270848/187909682-e50480bd-6937-4791-adb8-4b6da4a02ae2.png">
+
 - Ensures Two-way En/Decryption behaves as expected on Android.
 <img width="859" alt="two-way-encryption-ss" src="https://user-images.githubusercontent.com/98270848/187909732-c156eb87-9d1b-4228-b39b-c925c3c317a5.png">
 <img width="414" alt="two-way-encryption-ss-pt2" src="https://user-images.githubusercontent.com/98270848/187909778-d5e5b56c-5387-4da9-bc27-8854ff3c25bb.png">
