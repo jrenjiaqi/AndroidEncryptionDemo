@@ -28,7 +28,6 @@ public class OneWayEncryption extends AppCompatActivity {
         Button oneWayButton = (Button) findViewById(R.id.CheckPasswordMatchBtn);
         oneWayButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // onclick: brings user to one-way encryption activity.
                 String firstPassword = ((EditText)findViewById(R.id.FirstPassword))
                                         .getText().toString();
 

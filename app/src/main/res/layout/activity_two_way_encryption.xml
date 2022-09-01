@@ -8,11 +8,12 @@
 
     <EditText
         android:id="@+id/EnterTextEditText"
-        android:layout_width="362dp"
-        android:layout_height="115dp"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
         android:layout_marginTop="8dp"
         android:gravity="top"
         android:inputType="text|textMultiLine"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,18 +83,20 @@
 
     <TextView
         android:id="@+id/EncryptedResultTextView"
-        android:layout_width="364dp"
-        android:layout_height="121dp"
+        android:layout_width="360dp"
+        android:layout_height="125dp"
         android:layout_marginTop="8dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EncryptedTextTextView" />
 
     <TextView
         android:id="@+id/DecryptedResultTextView"
-        android:layout_width="364dp"
-        android:layout_height="121dp"
+        android:layout_width="360dp"
+        android:layout_height="125dp"
         android:layout_marginTop="8dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
