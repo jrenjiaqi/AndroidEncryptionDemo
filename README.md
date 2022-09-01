@@ -62,3 +62,7 @@ Android Demonstration:
 <img width="859" alt="two-way-encryption-ss" src="https://user-images.githubusercontent.com/98270848/187909732-c156eb87-9d1b-4228-b39b-c925c3c317a5.png">
 <img width="414" alt="two-way-encryption-ss-pt2" src="https://user-images.githubusercontent.com/98270848/187909778-d5e5b56c-5387-4da9-bc27-8854ff3c25bb.png">
 
+### 4. Acknowledgements
+- AES Code: https://www.baeldung.com/java-aes-encryption-decryption
+- MD5 and Salt Code: https://www.sourcecodeexamples.net/2020/05/java-md5-hash-with-salt-example.html
+- Security stock image: https://www.istockphoto.com/photos/computer-security
