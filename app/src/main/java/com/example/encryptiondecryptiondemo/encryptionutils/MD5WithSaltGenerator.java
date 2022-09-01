@@ -1,4 +1,4 @@
-package com.example.encryptiondecryptiondemo;
+package com.example.encryptiondecryptiondemo.encryptionutils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -7,7 +7,7 @@ import java.security.SecureRandom;
 
 // taken from https://www.sourcecodeexamples.net/2020/05/java-md5-hash-with-salt-example.html
 public class MD5WithSaltGenerator {
-    static String getSecurePassword(String passwordToHash, byte[] salt) {
+    public static String getSecurePassword(String passwordToHash, byte[] salt) {
         String generatedPassword = null;
         try {
             // Create MessageDigest instance for MD5
@@ -31,7 +31,7 @@ public class MD5WithSaltGenerator {
     }
 
     //Add salt
-    static byte[] getSalt() throws NoSuchAlgorithmException, NoSuchProviderException {
+    public static byte[] getSalt() throws NoSuchAlgorithmException, NoSuchProviderException {
         //Always use a SecureRandom generator
         SecureRandom sr = new SecureRandom();
         //Create array for salt

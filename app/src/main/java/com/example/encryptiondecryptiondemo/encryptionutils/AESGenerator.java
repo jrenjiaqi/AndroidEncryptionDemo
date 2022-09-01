@@ -1,4 +1,4 @@
-package com.example.encryptiondecryptiondemo;
+package com.example.encryptiondecryptiondemo.encryptionutils;
 
 import android.os.Build;
 
